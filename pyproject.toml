@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "numpy<2.0.0",
+    "transformers[ja,sentencepiece,torch]>=4.47.1",
 ]
 
 [project.optional-dependencies]
